@@ -1,7 +1,11 @@
 namespace ProjetoProdutos.Interfaces
 {
-    public class ILogin
+    public interface ILogin
     {
-        
+        void Login();
+
+        void Logar(string usuario);
+
+        void Deslogar(bool logado);
     }
 }
